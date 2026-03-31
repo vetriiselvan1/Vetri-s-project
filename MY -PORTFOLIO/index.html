@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VETRI - Personal Portfolio. A web developer and designer specializing in creating modern, responsive, high-performance websites.">
+    <meta name="keywords" content="VETRI, Web Developer, Designer, Portfolio, Glassmorphism, UI/UX">
+    <meta name="author" content="Vetri">
+    <title>VETRI | Personal Portfolio</title>
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="VETRI | Personal Portfolio">
+    <meta property="og:description" content="Web developer and designer specializing in creating modern, responsive, high-performance websites.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Vetri",
+      "jobTitle": "Web Developer and Designer",
+      "description": "Expert web developer specializing in modern, responsive, high-performance websites."
+    }
+    </script>
+</head>
+<body>
+    <div class="glass-background-elements">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar glass-effect" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">VETRI<span class="dot">.</span></a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="title">VETRI</h1>
+                    <h2 class="subtitle">Experience <span class="highlight">Design & Development</span></h2>
+                    <p class="description">
+                        I build modern, responsive, high-performance websites that seamlessly connect aesthetic design with flawless engineering.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary glass-btn">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary glass-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in-up delay-1">
+                    <div class="glass-card hero-card">
+                        <div class="code-snippet">
+                            <span class="keyword">const</span> <span class="variable">vetri</span> = {<br>
+                            &nbsp;&nbsp;<span class="property">role</span>: <span class="string">"Web Developer"</span>,<br>
+                            &nbsp;&nbsp;<span class="property">passion</span>: <span class="string">"UI/UX Design"</span>,<br>
+                            &nbsp;&nbsp;<span class="property">focus</span>: <span class="string">"Performance"</span><br>
+                            };<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-content glass-card reveal delay-1">
+                    <div class="about-text">
+                        <h3>Transforming Ideas into Digital Experiences</h3>
+                        <p>I am an expert web developer and designer passionate about crafting meaningful and immersive digital experiences. With a strong foundation in both front-end engineering and UI/UX design, I bridge the gap between creative vision and technical implementation.</p>
+                        <p>My approach is focused on clean code, accessible web standards, and visually stunning aesthetics. I specialize in building SEO-optimized single-page applications that deliver exceptional performance without compromising on functionality.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My Expertise</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive, user-centric interfaces with modern tools. Deep understanding of typography, color theory, and wireframing.</p>
+                    </div>
+                    <div class="skill-card glass-card reveal delay-1">
+                        <div class="skill-icon">💻</div>
+                        <h3>Frontend Development</h3>
+                        <p>Building responsive, accessible web applications using modern HTML5, CSS3, and JavaScript alongside popular frameworks.</p>
+                    </div>
+                    <div class="skill-card glass-card reveal delay-2">
+                        <div class="skill-icon">⚡</div>
+                        <h3>Optimization & SEO</h3>
+                        <p>Ensuring blazing fast load times, superior core web vitals, and writing semantic html that ranks well on search engines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Featured Work</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card glass-card reveal">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Dashboard Interface with dark blue theme" loading="lazy" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web Application</span>
+                            <h3 class="project-title">E-Commerce Dashboard</h3>
+                            <p class="project-desc">A high-performance analytics dashboard featuring real-time data visualization and a dark mode interface.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS Grid</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card glass-card reveal delay-1">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Fintech application code and screen" loading="lazy" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Landing Page</span>
+                            <h3 class="project-title">Fintech Global</h3>
+                            <p class="project-desc">A conversion-optimized landing page with intricate micro-animations and robust responsive design.</p>
+                            <div class="project-tags">
+                                <span>CSS Variables</span>
+                                <span>Animations</span>
+                                <span>SEO</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="contact-container glass-card reveal delay-1">
+                    <div class="contact-info">
+                        <h3>Let's build something amazing together</h3>
+                        <p>Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <a href="mailto:hello@vetri.dev">hello@vetri.dev</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span>San Francisco, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required class="glass-input" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required class="glass-input" placeholder="you@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required class="glass-input" placeholder="What would you like to discuss?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary glass-btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glass-effect">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="#home" class="logo">VETRI<span class="dot">.</span></a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+            </div>
+            <p class="copyright">&copy; 2026 Vetri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
